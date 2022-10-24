@@ -5,6 +5,13 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class CalculatorTest {
+    private static int NUMBER = 0;
+    @Test
+    void flake() {
+        ++NUMBER;
+        assertEquals(3, NUMBER);
+    }
+
     @Test
     void add() {
         assertEquals(1 + 2, Calculator.add(1, 2));
