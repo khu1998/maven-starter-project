@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="104742e7-a34d-4473-ae2f-b8463acba458" name="Changes" comment="Add failing test">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="104742e7-a34d-4473-ae2f-b8463acba458" name="Changes" comment="Enable test rerun" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +63,22 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile">
+  <component name="RunManager" selected="JUnit.CalculatorTest">
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven-starter-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="maven-starter-project [test]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -112,10 +125,12 @@
     <list>
       <item itemvalue="Docker.Dockerfile" />
       <item itemvalue="Docker.docker/Dockerfile" />
+      <item itemvalue="JUnit.CalculatorTest" />
       <item itemvalue="Maven.maven-starter-project [test]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Docker.docker/Dockerfile" />
       </list>
@@ -172,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666611506237</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Enable test rerun">
+      <created>1666612201072</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666612201072</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +214,7 @@
     <MESSAGE value="Fix tests" />
     <MESSAGE value="Add flaky test" />
     <MESSAGE value="Add failing test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add failing test" />
+    <MESSAGE value="Enable test rerun" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enable test rerun" />
   </component>
 </project>
