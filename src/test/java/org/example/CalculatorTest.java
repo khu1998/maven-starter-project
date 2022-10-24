@@ -11,7 +11,7 @@ class CalculatorTest {
     @Test
     void flake() {
         ++NUMBER;
-        assertEquals(3, NUMBER);
+        assertEquals(2, NUMBER);
     }
 
     @Test
